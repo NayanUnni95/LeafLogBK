@@ -6,7 +6,7 @@ from pydantic_settings import BaseSettings
 from pydantic import PostgresDsn, field_validator, ValidationInfo
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "CEMOfficial"
+    PROJECT_NAME: str = "LEAFLOG"
     SECRET_KEY: str = decouple_conf("SECRET_KEY")
     PROTECTED_API_KEY: str = decouple_conf("PROTECTED_API_KEY")
     ROOT_URL_PREFIX: str = f"/{PROJECT_NAME.lower()}"

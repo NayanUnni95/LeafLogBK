@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from app.api.routes import api_router
 from app.core.config import settings
 
-app = FastAPI(title="CEMOfficial")
+app = FastAPI(title="LeafLog")
 
 app.add_middleware(
     CORSMiddleware,
