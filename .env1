@@ -1,0 +1,21 @@
+
+DATABASE_PASSWORD = postgres
+DATABASE_NAME = leaflog
+DATABASE_HOST = localhost
+DATABASE_PORT = 5432
+DATABASE_USER = postgres
+
+SECRET_KEY = W<Ib&3M3[30sU3k9Z6<
+PROTECTED_API_KEY = 'tah*Fa@5(2]_vtALk9'
+
+DISCORD_WEBHOOK_URL = https://discord.com/api/webhooks/
+IS_DEV=True
+
+ACCESS_TOKEN_EXPIRE_MINUTES=5000
+REFRESH_TOKEN_EXPIRE_MINUTES=10000
+
+SMTP_SERVER = smtp.gmail.com
+SMTP_PORT = 587
+SMTP_USERNAME = nayanunni95@gmail.com
+SMTP_PASSWORD = "kmbz lsxx abny manc"
+FROM_MAIL = noreply@cemuttathara.ac.in
